@@ -20,7 +20,7 @@ TEXT_SOCRE_COLOR = pygame.Color(255, 255, 0)
 # 击中小型飞机添加10分
 SCORE_SHOOT_SMALL = 10
 # 游戏结果存储的文件地址
-PLAY_RESULT_STORE_FILE = os.path.join(BASE_DIR, 'store/rest.txt')
+PLAY_RESULT_STORE_FILE = os.path.join(BASE_DIR, '../store/rest.txt')
 
 
 # 我方飞机的静态资源
