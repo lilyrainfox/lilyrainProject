@@ -7,7 +7,7 @@ import random
 import pygame
 
 import constants
-from game.bullet import Bullet
+from bullet import Bullet
 
 
 class Plane(pygame.sprite.Sprite):

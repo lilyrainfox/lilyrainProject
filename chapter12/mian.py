@@ -2,6 +2,7 @@ import pygame
 import sys
 
 import constants
+
 from game.plane import OurPlane, SmallEnemyPlane
 from game.war import PlaneWar
 
