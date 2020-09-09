@@ -61,7 +61,7 @@ class PlaneWar(object):
         pygame.mixer.music.set_volume(0.2)  # 设置音量
 
         # 我方飞机对象
-        self.our_plane = OurPlane(self.screen, speed=4)
+        self.our_plane = OurPlane(self.screen, speed=4) # use OurPlane method to load ourplane,
 
         self.clock = pygame.time.Clock()
 
